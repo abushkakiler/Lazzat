@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(../img/chef-icon\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px 0 ;
+    text-align: center;
+}
+.header .header-tetle{
+    letter-spacing: 10px;
+    font-size: 42px;
+}
+.menu{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.menu li{
+    display: inline-block;
+    padding: 13px 24px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 32px;
+    color: grey;
+}
+.menu li:hover{
+    background-color: grey;
+    color: white;
+}
+.menu li a:hover{
+    color: #f1f1f1;
+}
+.box{
+    width: calc(100% / 3 - 20px);
+    float: left;
+    margin: 50px 10px 20px;
+}
+
+.box img:hover{
+    opacity: .7;
+}
+
+.clear{
+    clear: both;
+}
+
+.box img{
+    width: 89%;
+    height: 210px;
+    margin: 20px 0;
+}
+
+.box a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: white;
+}
+
+.box h2{
+    margin: 20px 0 10px;
+}
+
+h2:hover{
+    color: red;
+}
+.text1{
+    text-decoration: none;
+    color: #ff0000;
+    border: 1px solid red;
+    padding: 5px 10px;
+    margin: 510px ;
+}
+
+.footer{
+    background-image: url(../img/foooter.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 50px;
+    padding: 120px;
+
+}
+.footer input{
+    margin: 20px 30px 20px 200px;
+    width: 40%;
+    height: 50px;
+    padding: 10px;
+}
+.text{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+.title{
+    text-align: center;
+    color: #f1f1f1;
+}
+
+
+
+

@@ -1,0 +1,66 @@
+/* responsive */
+
+@media screen and (max-width:576px){
+    .container{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .menu li{
+        text-align: center;
+        display: block;
+    }
+    .box{
+        width: 100%;
+        margin: 10px;
+    }
+    .text1{
+        margin: 0;
+        position: relative;
+        top: 10px;
+    }
+    .footer input{    
+        width: 200%;
+        position: relative;
+        top: 60px;    
+        right: 270px;    
+    }
+    .text{
+        padding: 8PX;
+        margin: 0 0px;
+    }
+    .title{
+        margin: 30px 0;
+    }
+}
+
+/* planshet */
+
+@media (min-width: 577px) and (max-width: 992px){
+    .container{
+        text-align: center;
+    }
+    
+    .footer input{
+        margin: 0 10px;
+        width: 40%;
+        padding: 12px;
+    }
+    .text1{
+        margin: 0;
+    }
+    .title{
+        margin: 20px 0;
+    }
+}
+
+/* notebook */
+
+@media(min-width: 993px) and (max-width: 1440px){
+    .container{
+        width: 100%;
+        text-align: center;
+    }
+    .text1{
+        margin: 400px;
+    }
+}
